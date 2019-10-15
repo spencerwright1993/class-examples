@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <div class="header">Header</div>
+        <div class="main">main</div>
+        <div class="menu">menu</div>
+        <div class="footer">footer</div>
+        <div class="menu">menu</div>
+        <div class="right">right</div>
+
+
+    </body>
+    <style>
+        body{
+            display: grid;
+            grid-template-areas: 
+                'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+        }
+            
+
+        .header{
+            grid-area: header;
+            background: rgba(255, 0, 0, 0.582);
+            border-style solid; 10px; color: black
+            
+
+        }
+        .main{
+            grid-area: main;
+            background: blue;
+        }
+        .menu 
+        {
+            grid-area: menu;
+            background: green
+        }
+        .right{
+            grid-area: right;
+            background: yellow
+        }
+        .footer{
+            grid-area: footer;
+            background: orange
+        }
+        .menu{
+            grid-area: menu;
+            background: red;
+        }
+    </style>
+</html>
