@@ -1,0 +1,27 @@
+form {
+    width: 55%;
+    font-style: italic;
+    padding: 10px;
+border: 2px solid black;
+}
+.h3 
+    {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+}  
+ .required  {
+     color: red;
+     
+ }
+
+ .error {
+     border: 1px solid red;
+ }
+ 
