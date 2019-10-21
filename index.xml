@@ -1,0 +1,44 @@
+<movie>
+    <movie genre="action-adventure">
+    <title>inglorious-Basterds</title>
+        <year>2009</year>
+            <rating>8.3/10</rating>
+            <director>Quentin-Taratino</director>
+            <cast>           
+             <First-Name>Brad</First-Name>
+             <Last-Name>Pitt</Last-Name>
+             <character>Lt Aldo Raine</character>
+             <First-Name>Mélanie</First-Name>
+             <Last-Name>Laurent</Last-Name>
+             <character>Shosanna</Last-Name>
+             <First-Name>Christopher</First-Name>
+             <Last-Name>Waltz</Last-Name>
+             <character> Col Hans Landa</character>
+             </cast>
+</movie>
+    <movie>
+        <movie genre="drama-horror-scifi-">
+            <title>A-Quiet-Place</title>
+                <year>2018</year>
+                    <rating>7.5/10</rating>
+                        <director>John-Krasinski</director>
+        <cast>
+            <First-Name>Emily</First-Name>
+            <Last-Name>Blunt</Last-Name>
+            <character>Evelyn Abbott<character>
+            <First-Name>John</First-Name>
+            <Last-Name>Krasinski</Last-Name>
+            <character>Lee Abbott</character>
+            <First-Name>Millicent</First-Name>
+            <Last-Name>Simmonds</Last-Name>
+            <character>Regan Abbott</character>
+        </cast>
+</movie>
+
+
+
+
+
+        
+    
+   
