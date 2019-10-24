@@ -1,0 +1,11 @@
+.list-element:hover{
+    text-decoration-line: line-through;
+    cursor: pointer;
+    font-family: cursive;
+    font-synthesis: style;
+}
+.h2 {
+    text-decoration: crimson;
+    text-decoration-line: underline;
+
+}

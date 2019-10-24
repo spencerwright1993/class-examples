@@ -1,0 +1,65 @@
+<html>
+  <body>
+    <div class="input-container">
+      <div>
+        <input type="text" id="text" />
+        <button id="button">Add New Name</button>
+      </div>
+
+      <div class="name-badge">
+        <div class="label">
+          <div class="top-text">Hello</div>
+          <br />
+
+          <div>My Name Is...</div>
+        </div>
+        <div class="name">Spencer</div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+  <style>
+    
+    body{
+      background-color: rgba(45, 25, 76, 65);
+      text-decoration-line:underline;
+      text-decoration-color: blue;
+      transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+      transition-property: unset;
+      
+    }
+    .name-badge {
+      background: red;
+      width: 300px;
+      height: 200px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      position: relative;
+      box-shadow: 3px 3px gray;
+      border-style: double;
+      color: black;
+      border-radius: 5px;
+    }
+
+    .label div {
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 25px;
+      text-align: center;
+      font-size: 35;
+      color: whitesmoke;
+      font-stretch: semi-expanded;
+      font-style: oblique;
+    }
+    .name {
+      text-align: center;
+      background: white;
+      position: absolute;
+      font-size: 45;
+      bottom: 10px;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  </style>
+</html>
