@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: red;
+    justify-content: center;
+    text-align: center;
+    margin: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    scrollbar-track-color: blue;
+    -moz-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: linear;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    
+}
+
+
+
