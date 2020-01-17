@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  padding: 50px;
+  font: 14px "Helvetica";
+  color: red;
+  text-align: center;
+  font-size: 100px;
+  background-blend-mode: hard-light;
+  backdrop-filter: initial;
+  transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  background-blend-mode: luminosity;
+  transform-style: flat;
+  transition: linear;
+  transition-timing-function: cubic-bezier(alternate);
+  text-transform: capitalize;
+  transform: perspective(invert);
+  
+}
+
+a {
+  color: #00B7FF;
+}

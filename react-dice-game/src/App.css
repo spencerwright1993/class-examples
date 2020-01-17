@@ -1,0 +1,20 @@
+body{
+    
+    transition: ease-in-out;
+    @keyframes identifier {
+        top: 300;
+        color: red;
+    }
+    transition-timing-function: ease-in-out 2000, color red;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header{
+    font-size: 100px;
+    font-family:  Helvetica;
+    font-style: oblique;
+    
+}

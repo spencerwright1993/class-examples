@@ -1,0 +1,31 @@
+h2 {
+    font-display: inherit;
+    font-family: helvetica;
+    display: contents
+}
+p{
+    font-family: helvetica;
+    text-emphasis: none;
+    color: crimson;
+
+}
+body{
+    background: rgb(80, 80, 82);
+    display: flexbox;
+    justify-content: center;
+    text-align: start;
+}
+a{
+    color: black;
+    display: flex;
+    padding: 5px;
+
+
+}
+h2 {
+    text-align: center;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+
+
+}

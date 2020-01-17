@@ -1,0 +1,9 @@
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-content: space-between 5px;
+
+    border: 1px solid black;
+    
+}

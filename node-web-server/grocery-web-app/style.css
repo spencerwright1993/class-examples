@@ -1,0 +1,61 @@
+img{
+    grid-area: header;
+    height: 50px;
+    width: 50px;
+    
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        'header header header header header'
+        'main main main main cart'
+        'main main main main cart';
+    
+}
+.header{
+    grid-area: header;
+    background-color: chocolate;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;    
+    
+}
+
+.items{
+    image-rendering: optimizeQuality;
+    font-family: 'franklin gothic medium';
+    text-emphasis: inherit;
+    font-size: 10px;
+    display: flex;
+    grid-area: main;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    background: cadetblue;
+    
+}
+.cart{;
+    grid-area: cart;
+    border: 2px solid black;
+    width: 100px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+.item{
+    margin-left: 25px;
+    grid-area: main;
+    flex-wrap: wrap;
+    padding: 5px;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    
+    
+    
+}
+img{
+    size: 25px;
+    background-color: cadetblue;

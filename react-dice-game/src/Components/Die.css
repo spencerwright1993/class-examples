@@ -1,0 +1,19 @@
+
+.die-container {
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgb(255, 0, 0);
+    padding: 20px 20px 20px 20px;
+    
+}
+.addButton{
+    font-size: 20px;
+    box-shadow:3px black;
+}
+
+.roll-button{
+color: white;
+background-color: black;
+}

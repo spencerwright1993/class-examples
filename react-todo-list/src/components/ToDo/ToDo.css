@@ -1,0 +1,26 @@
+.to-do-container{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: crimson;
+}
+
+.delete {
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: crosshair;
+
+    
+}
+
+.done{
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: darkgrey;
+}
+
